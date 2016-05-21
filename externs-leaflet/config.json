@@ -1,0 +1,18 @@
+{
+  "lib": [
+    "src/**/*.js"
+  ],
+  "compile": {
+    "closure_entry_point": "app",
+    "externs": [
+      "externs/leaflet.js"
+    ],
+    "define": [],
+    "js": [],
+    "extra_annotation_name": [],
+    "compilation_level": "ADVANCED",
+    "warning_level": "VERBOSE",
+    "output_wrapper": "(function(){%output%})();",
+    "use_types_for_optimization": true
+  }
+}
