@@ -11,7 +11,7 @@ help:
 .PHONY: build
 build: dist/app.js dist/index.html
 
-dist/app.js: config.json src/main.js
+dist/app.js: config.json src/main.js src/point.js
 	mkdir -p $(dir $@)
 	# compile using closure-util
 	./../node_modules/.bin/closure-util build config.json dist/app.js
