@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "closure-util": "^1.13.1"
+    "closure-util": "1.14.0",
+    "openlayers": "3.16.0"
   }
 }
